@@ -6,7 +6,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-import lombok.Data;
+import lombok.Data; 
 import lombok.NoArgsConstructor;
 
 @Entity
@@ -22,4 +22,8 @@ public class Company {
     private String address;
     @Column
     private String city;
+    @Column
+    private String state;
+    @Column
+    private String zip;
 }

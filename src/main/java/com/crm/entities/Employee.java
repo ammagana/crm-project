@@ -25,9 +25,8 @@ public class Employee {
     @Column
     private String phoneNumber;
     @Column
-    private String role;
-    @Column
-    private String imageUrl;
-    @Column
-    private String employeeCode;    
+    private RoleEnum role;
+    // @Column
+    // private String imageUrl;
+     
 }

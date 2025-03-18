@@ -18,7 +18,7 @@ public class Contacts {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     @Column
-    private String fristName;
+    private String firstName;
     @Column
     private String lastName;
     @Column
